@@ -1,0 +1,347 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Alegreya', serif;
+}
+.clear-fix{
+  clear: both;
+  }
+  
+  /* --------SECTION  Home--------- */
+#home {
+background-image: url(../images/drew-coffman-1872.jpg);
+height: 100vh;
+background-size: 100% 100%;
+color: #FFFFFF;
+}
+#home .caption {
+  text-align: center;
+  padding-top: 220px;
+}
+.caption p{
+  font-size: 22px;
+  font-weight: 450;
+}
+.caption h1{
+  font-weight: 500;
+  font-size: 76px;
+  margin: 0 0 16px;
+  line-height: 91.2px;
+}
+#home .caption p{
+  padding: 25px 0;
+}
+#home .caption .btn1{
+  background-color: #8e7754;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 18px;
+  margin: 10px;
+}
+#home .caption .btn1:hover{
+  background-color: #FFFFFF;
+  color: black;
+}
+#home .caption .btn2{
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px 16px;
+  border-radius: 18px;
+}
+#home .caption .btn2:hover{
+  background-color: #fff;
+  color: black;
+}
+
+.nav-bar{
+position: fixed;
+width: 100%;
+height: auto;
+box-sizing: border-box;
+background-color: #756e6f;
+z-index: 1;
+padding-left: 90px;
+}
+
+.nav-bar .logo{
+  float: left;
+  width: 180px;
+  padding: 20px;
+}
+
+.nav-bar .logo img{
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.nav-bar .links{
+  float: right;
+}
+.links ul{
+  list-style-type: none;
+  padding-right: 70px;
+}
+li{
+  display: inline-block;
+  box-sizing: border-box;
+  padding-top: 25px;
+  margin: 15px;
+}
+.links li a{
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 500;
+ 
+}
+.links li a:hover{
+color: #8e7754;
+}
+
+/* ---- Who we are ----- */
+
+#who-are-we{
+padding: 60px;
+}
+.who-are-we-img{
+display: inline-block;
+width: 44%;
+padding-top: 90px;
+}
+.who-are-we-img img{
+ width: 500px;
+ border-radius: 50%;
+}
+h2{
+ font-size:35px;
+}
+.who-are-we-info{
+  display: inline-block;
+  width: 50%;
+  height: 50%;
+  padding-left: 70px;
+}
+.who-are-we-info .info-img{
+  width: 6%;
+  border-radius: 50%;
+  border: 1px solid #8e7754;
+  vertical-align: baseline;
+}
+
+.who-are-we-info .who-p{
+  display: inline-block;
+  padding: 30px 0;
+  margin: 0%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #716868;
+}
+.who-are-we-info .img-p{
+display: inline-block;
+padding-left: 20px;
+margin-bottom: 10px;
+color: #716868;
+}
+
+.who-are-we-info h2{
+  font-weight: 600;
+  font-size: 38px;
+}
+
+/* --------Our Location ------- */
+
+
+#our-location{
+  background-color: #d0d0d0;
+  padding: 80px;
+}
+
+.our-location-info{
+display: inline-block;
+width: 30%;
+padding: 40px;
+transform: translateY(-25%);
+margin-bottom: 30px;
+}
+
+.our-location-img{
+  display: inline-block;
+  width: 20%;
+  height: 40%;
+  padding-left: 200px;
+}
+.our-location-img img{
+  width: 550px;
+  border-radius: 50%;
+  padding-top: 40px;
+}
+.location-p{
+  color: #716868;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* ------- Our Banking ------- */
+
+.our-banking h2 {
+  text-align: center;
+  transition: 0.4s;
+  color: black;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: 0.4s;
+  padding: 30px;
+}
+
+.our-banking h2 span {
+  color: #716868;
+  font-size: 45px;
+}
+.our-banking p{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.product{
+  width: 32.9%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+  height: 100%;
+ 
+}
+.product p{
+  margin-top: 20px;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.product img {
+  width: 90%;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-bottom: 30px;
+ 
+}
+
+/* --- Contact Info -- */
+
+
+#our-info{
+  background-color: #d0d0d0;
+  padding: 100px;
+
+}
+
+.our-info-info{
+display: inline-block;
+width: 30%;
+padding: 40px;
+margin-bottom: 30px;
+}
+
+.our-info-map{
+  display: inline-block;
+  width: 20%;
+  height: 40%;
+  padding-left: 300px;
+}
+.our-info-map iframe{
+  display: inline-block;
+  width: 500px;
+  height: 550px;
+}
+
+.info-info-img{
+  width: 12%;
+  background-color: #8E7754;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.our-info-info .info-info-img{
+  display: inline-block;
+}
+
+/* ------- Our About ------- */
+
+#About-us{
+  background-image: url(../images/contact-details-map.png);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: #403D38;
+  padding: 80px;
+  color: #fff;
+}
+#About-us .about-us{
+ float: left;
+ width: 25%;
+ text-align: center;
+}
+
+#About-us .about-us p:hover{
+  color: #d0d0d0;
+  cursor: pointer;
+}
+#About-us .about-us i{
+  margin: 10px;
+}
+
+#About-us .about-us p{
+  font-size: 20px;
+}
+/* ---- Footer ------ */
+
+footer{
+  background-color: #353330;
+  height: auto;
+  text-align: center;
+  padding: 50px;
+  color: #fff;
+}
+footer img{
+  width: 350px;
+}
+
+footer .icon-f i{
+  background-color: #484540;
+  width: 30px;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+   border-radius: 50%;
+  margin-left: 10px;
+  padding: 8px;
+}
+footer .icon-f a{
+ color: #fff;
+}
+
+.icon-f .facebook i:hover{
+  background-color: rgb(21, 21, 232);
+}
+.icon-f .gmail i:hover{
+  background-color: rgb(123, 8, 8);
+}
+.icon-f .linkedin i:hover{
+  background-color: rgb(79, 79, 255);
+}
+.icon-f .twitter i:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+footer p:hover{
+  color: #d0d0d0;
+  cursor: pointer;
+}
